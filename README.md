@@ -2,12 +2,7 @@
 > SlateJS font-family plugin.
 
 
-## install:
+## installation
 ```bash
-npm install -S afeiship/slate-plugin-font-family --registry=https://registry.npm.taobao.org
-```
-
-## usage:
-```js
-//DOCS here!
+npm install -S @jswork/slate-plugin-font-family
 ```

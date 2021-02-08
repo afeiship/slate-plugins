@@ -1,12 +1,32 @@
-export default {
-  renderMark(inProps, inEditor, inNext) {
-    const { children, ...attributes } = inProps;
-    const value = inProps.node.data.get('value');
-    switch (inProps.node.type) {
-      case 'font-family':
-        return <span style={{ fontFamily: value }} children={children} />;
-      default:
-        return inNext();
+/**
+ * @usage:
+ * Editor.addMark(editor,'font-family', 'lightgreen');
+ */
+
+import React from 'react';
+import { jsx } from 'slate-hyperscript';
+import NxSlatePlugin from '@jswork/next-slate-plugin';
+
+export default NxSlatePlugin.define({
+  id: 'font-family',
+  serialize: {
+    input: ({ el }, children) => {
+      const nodeName = el.nodeName.toLowerCase();
+      if (nodeName === 'span' && el.style.fontFamily) {
+        return jsx('text', { fontFamily: el.style.fontFamily }, children);
+      }
+    },
+    output: (node, children) => {
+      const el = node.el;
+      el.style.fontFamily = node['font-family'];
+      return el;
     }
+  },
+  render: (_, { attributes, children, leaf }) => {
+    return (
+      <span style={{ fontFamily: leaf['font-family'] }} {...attributes}>
+        {children}
+      </span>
+    );
   }
-};
+});

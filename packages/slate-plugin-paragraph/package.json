@@ -1,6 +1,6 @@
 {
   "name": "@jswork/slate-plugin-paragraph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SlateJS paragraph plugin.",
   "main": "dist/index.js",
   "repository": "git@github.com:afeiship/slate-plugin-paragraph.git",

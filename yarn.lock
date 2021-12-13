@@ -191,10 +191,10 @@
     slate "^0.59.0"
     slate-hyperscript "^0.59.0"
 
-"@jswork/next-slate-plugin@^1.0.14":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@jswork/next-slate-plugin/-/next-slate-plugin-1.0.15.tgz#368fd08ec1f83d2e298f91f26878d3f7ea0402a1"
-  integrity sha512-4lfm91+R9UPpVhQrb+fQc74vauzscWsZglvSPG6sY6SBqI5KtE59aPTCH/I8oFtKHoss4Q/9zZhmyoQs03rD/Q==
+"@jswork/next-slate-plugin@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@jswork/next-slate-plugin/-/next-slate-plugin-1.0.16.tgz#dbd689017e8b7d0d96ace992f786c1400325b71f"
+  integrity sha512-ius/mI6qOTfFYXrp1Iwx8RXaUGwWB2nROMsN20osqUYGZMCCvagYZixg69MoWUUeM4s4hoj6aPl4gHuJezZWkw==
   dependencies:
     "@jswork/next-bind" "^1.0.2"
     "@jswork/next-deep-assign" "^1.0.2"

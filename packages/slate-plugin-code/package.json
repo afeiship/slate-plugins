@@ -37,6 +37,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "dependencies": {
+    "@jswork/next-slate-plugin": "^1.0.16"
+  },
   "keywords": [
     "slate",
     "plugin",

@@ -1,6 +1,6 @@
 {
   "name": "@jswork/slate-plugin-strikethrough",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SlateJS strikethrough plugin.",
   "main": "dist/index.js",
   "repository": "git@github.com:afeiship/slate-plugin-strikethrough.git",

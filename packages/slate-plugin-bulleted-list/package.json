@@ -1,6 +1,6 @@
 {
   "name": "@jswork/slate-plugin-bulleted-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SlateJS bulleted-list(ul) plugin.",
   "main": "dist/index.js",
   "repository": "git@github.com:afeiship/slate-plugin-bulleted-list.git",

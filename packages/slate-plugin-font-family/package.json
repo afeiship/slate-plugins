@@ -1,6 +1,6 @@
 {
   "name": "@jswork/slate-plugin-font-family",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SlateJS font-family plugin.",
   "main": "dist/index.js",
   "repository": "git@github.com:afeiship/slate-plugin-font-family.git",

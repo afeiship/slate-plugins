@@ -1,6 +1,6 @@
 {
   "name": "@jswork/slate-plugin-blockquote",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SlateJS quote plugin.",
   "main": "dist/index.js",
   "repository": "git@github.com:afeiship/slate-plugin-blockquote.git",

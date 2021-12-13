@@ -24,7 +24,7 @@ export default NxSlatePlugin.define({
     }
   },
   commands: {
-    value: function () {
+    value: function (inEditor) {
       if (!inEditor) return '#000';
       var id = this.id;
       var marks = Editor.marks(inEditor);

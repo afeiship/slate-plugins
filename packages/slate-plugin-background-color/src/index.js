@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { jsx } from 'slate-hyperscript';
+import { Editor } from 'slate';
 import NxSlatePlugin from '@jswork/next-slate-plugin';
 
 export default NxSlatePlugin.define({
@@ -20,6 +21,14 @@ export default NxSlatePlugin.define({
       const el = node.el;
       el.style.backgroundColor = node['background-color'];
       return el;
+    }
+  },
+  commands: {
+    value: function () {
+      if (!inEditor) return '#000';
+      var id = this.id;
+      var marks = Editor.marks(inEditor);
+      return marks[id] || '#000';
     }
   },
   render: (_, { attributes, children, leaf }) => {

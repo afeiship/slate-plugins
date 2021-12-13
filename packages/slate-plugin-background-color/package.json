@@ -1,6 +1,6 @@
 {
   "name": "@jswork/slate-plugin-background-color",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Slate plugin for background-color.",
   "main": "dist/index.js",
   "repository": "git@github.com:afeiship/slate-plugin-background-color.git",
